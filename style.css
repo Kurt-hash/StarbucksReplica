@@ -1,0 +1,156 @@
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800;900&display=swap');
+.nav-item{
+    font-family: 'Poppins', sans-serif;
+    color: black;
+    font-weight: 600;
+}
+.nav-item:hover{
+    color: green;
+}
+.navbar{
+    background-color: white;
+}
+#find{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    font-size: 15px;
+}
+#sign{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    border: 1px solid black;
+    border-radius: 18px;
+    font-size: 15px;
+}
+#learn{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    border: 1px solid white;
+    border-radius: 18px;
+    font-size: 15px;
+    color: white;
+}
+a{
+    color: rgb(126, 126, 126);
+    text-decoration: none;
+}
+a:hover{
+    color: black;
+}
+.link{
+    color: black;
+    font-size: 15px;
+}
+.link:hover{
+    color: green;
+}
+#explore{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    border: 1px solid black;
+    border-radius: 18px;
+    font-size: 15px;
+    color: black;
+}
+#socials{
+    background-color: black;
+    color: white;
+    font-size: 25px;
+    border-radius: 30px;
+}
+#gift{
+    padding-top: 60px;
+    padding-bottom: 50px;
+}
+#stories{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#card2{
+    background-color: #006241;
+    color: white;
+    font-family: 'Poppins', sans-serif;
+}
+#sweet{
+    padding-top: 30px;
+    padding-bottom: 30px;
+}
+#discover{
+    font-family: 'Poppins', sans-serif;
+    font-weight: 500;
+    border: 1px solid black;
+    border-radius: 18px;
+    font-size: 15px;
+    color: #1E3932;
+}
+#discover:hover{
+    background-color: rgb(255, 255, 255);
+}
+#footer{
+    padding-top: 30px;
+    padding-bottom: 30px;
+    border-top: 1px solid rgb(228, 226, 226);
+    border-bottom: 1px solid rgb(228, 226, 226);
+}
+#footer-id{
+    font-size: 20px;
+}
+#starbucks{
+    font-size: 20px;
+    display: inline-block;
+    transform: rotate(-90deg);
+    -webkit-transform: rotate(-90deg);
+    font-weight: 700;
+}
+.card-body{
+    font-family: 'Poppins', sans-serif;
+    background-color: #1E3932;
+    color: white;
+}
+#reuse{
+    background-color: #D4E9E2;
+    color: black;
+    font-family: 'Poppins', sans-serif;
+}
+.card{
+    border: none;
+    font-family: 'Poppins', sans-serif;
+}
+.navbar-toggler{
+    background-color: black;
+}
+
+.image-container {
+position: relative;
+display: inline-block;
+    }
+
+.text-overlay {
+position: absolute;
+top: 50%;
+left: 40%;
+transform: translate(-50%, -50%);
+color: #1E3932;
+font-family: 'Poppins', sans-serif;
+font-size: 70px;
+font-weight: 700;
+}
+@media screen and (max-width: 1180px) {
+.text-overlay {
+font-size: 70px;
+padding: 200px;
+ }
+}
+@media screen and (max-width: 768px) {
+.text-overlay {
+font-size: 25px;
+padding: 50px;
+ }
+}
+
+@media screen and (max-width: 480px) {
+ .text-overlay {
+font-size: 20px;
+ padding: 6px;
+}
+}
