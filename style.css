@@ -1,156 +1,229 @@
-@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;800;900&display=swap');
-.nav-item{
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans:wght@1000&family=Poppins:wght@300;400;500;600;700&display=swap');
+
+* {
+    box-sizing: border-box;
+}
+
+body {
     font-family: 'Poppins', sans-serif;
+}
+
+ .navbar {
+    border-bottom: 1px solid rgb(215, 213, 213);
+    
+ }
+
+ .nav-item {
     color: black;
+    font-family: 'Poppins', sans-serif;
     font-weight: 600;
-}
-.nav-item:hover{
-    color: green;
-}
-.navbar{
-    background-color: white;
-}
-#find{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
     font-size: 15px;
-}
-#sign{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+ }
+
+ .nav-item:hover {
+    color: #006241;
+ }
+ #find, #sign, #join {
+    font-size: 14px;
+    font-weight: 600;
+    text-transform: none;
+ }
+
+ #sign {
     border: 1px solid black;
-    border-radius: 18px;
-    font-size: 15px;
-}
-#learn{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
-    border: 1px solid white;
-    border-radius: 18px;
-    font-size: 15px;
-    color: white;
-}
-a{
-    color: rgb(126, 126, 126);
-    text-decoration: none;
-}
-a:hover{
-    color: black;
-}
-.link{
-    color: black;
-    font-size: 15px;
-}
-.link:hover{
-    color: green;
-}
-#explore{
-    font-family: 'Poppins', sans-serif;
-    font-weight: 500;
+    border-radius: 20px;
+ }
+
+ #join {
     border: 1px solid black;
-    border-radius: 18px;
-    font-size: 15px;
-    color: black;
-}
-#socials{
+    border-radius: 20px;
     background-color: black;
     color: white;
-    font-size: 25px;
-    border-radius: 30px;
-}
-#gift{
-    padding-top: 60px;
-    padding-bottom: 50px;
-}
-#stories{
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-#card2{
+ }
+
+ .card {
+    border: none;
+    border-radius: 0%;
+
+ }
+ .card-img-top {
+   border-radius: 0%;
+ }
+ section {
+    padding-top: 40px;
+    
+ }
+
+ .summer-pic {
+    width: 50vw;
+ }
+
+ .cool {
     background-color: #006241;
     color: white;
-    font-family: 'Poppins', sans-serif;
-}
-#sweet{
-    padding-top: 30px;
-    padding-bottom: 30px;
-}
-#discover{
-    font-family: 'Poppins', sans-serif;
+ }
+
+ .cool-title {
+    margin-top: 20vh;
     font-weight: 500;
-    border: 1px solid black;
-    border-radius: 18px;
-    font-size: 15px;
-    color: #1E3932;
-}
-#discover:hover{
-    background-color: rgb(255, 255, 255);
-}
-#footer{
-    padding-top: 30px;
-    padding-bottom: 30px;
-    border-top: 1px solid rgb(228, 226, 226);
-    border-bottom: 1px solid rgb(228, 226, 226);
-}
-#footer-id{
-    font-size: 20px;
-}
-#starbucks{
-    font-size: 20px;
-    display: inline-block;
-    transform: rotate(-90deg);
-    -webkit-transform: rotate(-90deg);
-    font-weight: 700;
-}
-.card-body{
-    font-family: 'Poppins', sans-serif;
-    background-color: #1E3932;
+    font-size: 50px;
+ }
+
+ .cool-text {
+    font-size: 24px;
+    font-weight: 500;
+ }
+
+ .join {
     color: white;
-}
-#reuse{
-    background-color: #D4E9E2;
+    border: 1px solid white;
+    border-radius: 20px;
+    font-weight: 600;  
+ }
+
+ .join:hover {
+    background-color: #013a27;
+    border: 1px solid white;
+ }
+
+ .tropical {
+    background-color: #eb81a5;
+ }
+
+ .tropical-title {
+    margin-top: 20vh;
+    font-weight: 600;
+    font-size: 48px;
+    letter-spacing: 2px;
+    color: #1e3932;
+ }
+
+ .tropical-text {
+    font-size: 23px;
+    font-weight: 400;
+    color: #1e3932;
+ }
+
+ .order {
+    color: #1e3932;
+    border: 1px solid #1e3932;
+    border-radius: 20px;
+    font-weight: 600;
+ }
+
+ .order:hover {
+    border: 1px solid #1e3932;
+    background-color: #f18aad;
+ }
+
+ .summer-max {
+    background-color: #8f8bf4;
+ }
+
+ .summer-max-title {
+    margin-top: 20vh;
+    font-weight: 600;
+    font-size: 48px;
+    letter-spacing: 2px;
     color: black;
-    font-family: 'Poppins', sans-serif;
-}
-.card{
-    border: none;
-    font-family: 'Poppins', sans-serif;
-}
-.navbar-toggler{
-    background-color: black;
-}
-
-.image-container {
-position: relative;
-display: inline-block;
-    }
-
-.text-overlay {
-position: absolute;
-top: 50%;
-left: 40%;
-transform: translate(-50%, -50%);
-color: #1E3932;
-font-family: 'Poppins', sans-serif;
-font-size: 70px;
-font-weight: 700;
-}
-@media screen and (max-width: 1180px) {
-.text-overlay {
-font-size: 70px;
-padding: 200px;
  }
-}
-@media screen and (max-width: 768px) {
-.text-overlay {
-font-size: 25px;
-padding: 50px;
- }
-}
 
-@media screen and (max-width: 480px) {
- .text-overlay {
-font-size: 20px;
- padding: 6px;
-}
-}
+ .summer-max-text {
+    font-size: 22px;
+    font-weight: 400;
+    color: black;
+ }
+
+ #order-now {
+    color: black;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-weight: 600;
+ }
+
+ #order-now:hover {
+    border: 1px solid black;
+    background-color: #8683e1;
+ }
+
+ .start-hearty {
+    background-color: #fc6446;
+ }
+
+ .start-hearty-title {
+    margin-top: 20vh;
+    font-weight: 600;
+    font-size: 48px;
+    letter-spacing: 2px;
+    color: black;
+ }
+
+ .start-hearty-text {
+    font-size: 22px;
+    font-weight: 400;
+    color: black;
+ }
+
+ #order-hearty {
+    color: black;
+    border: 1px solid black;
+    border-radius: 20px;
+    font-weight: 600;
+ }
+
+ #order-hearty:hover {
+   border: 1px solid black;
+   background-color: #df5a3f;
+ }
+
+ .offer {
+   font-size: 13px;
+   text-align: justify;
+ }
+
+ .about-title {
+   font-weight: 400;
+   font-size: 18px;
+   color: black;
+   
+ }
+
+ .about-link {
+   color: rgb(99, 99, 99);
+   font-weight: 400;
+   font-size: 16px;
+   text-decoration: none;
+ }
+
+ .about-link:hover {
+   color: black;
+ }
+ .abouts { 
+   border-top: 1px solid rgb(209, 208, 208);
+   border-bottom: 1px solid rgb(209, 208, 208);
+ }
+
+ #social-link {
+   font-size: 20px;
+   color: white;
+   background-color: black;
+   border-radius: 20px;
+ }
+
+ .link {
+   text-decoration: none;
+   color: black;
+   font-size: 16px;
+ }
+
+ .line {
+   text-decoration: none;
+   color: rgb(99, 99, 99);
+   font-size: 20px;
+ }
+
+ .copyright {
+   color: rgb(99, 99, 99);
+ }
